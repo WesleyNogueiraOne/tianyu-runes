@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+        maven { url = 'https://maven.neoforged.net/releases' }
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+
+        // Iron's Spells 'n Spellbooks + Curios
+        maven { url = "https://api.modrinth.com/maven" }
+
+        // GeckoLib (maven oficial)
+        maven {
+            name = "GeckoLib"
+            url = "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/"
+            content { includeGroup("software.bernie.geckolib") }
+        }
+    }
+}

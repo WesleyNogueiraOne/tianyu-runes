@@ -1,0 +1,12 @@
+{
+  "item.tianyu_runes.rune_fire_1": "Runa de Fogo I",
+  "item.tianyu_runes.rune_fire_2": "Runa de Fogo II",
+  "item.tianyu_runes.rune_water_1": "Runa de Água I",
+  "item.tianyu_runes.rune_water_2": "Runa de Água II",
+  "tooltip.tianyu_runes.rune": "Consumida ao conjurar magias",
+  "itemGroup.tianyu_runes.runes": "Tianyu • Runas",
+  "key.categories.tianyu_runes": "Tianyu Runes",
+  "key.tianyu_runes.dash": "Dash (Samurai)",
+  "key.tianyu_runes.launcher": "Launcher (Samurai)",
+  "key.tianyu_runes.aerial": "Aerial (Samurai)"
+}
